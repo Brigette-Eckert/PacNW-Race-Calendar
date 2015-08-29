@@ -1,0 +1,33 @@
+Angualr JS or Ember to render races with info: 
+Race Name: 
+Date:
+Distances & Price:
+Organzier/Link to Website:
+Local PAC NW (WA & Oregon)
+research sites: runningintheusa, terrpain sites, run oregon
+JSON Object
+Email me link to add recommendations
+Calenadar plugin
+View month or day
+
+Future: Add submit form  (with php because MEAN server is too slow)
+
+runLikeHell= {
+	name: "Run Like Hell",
+	date: "10-20-2015",
+	location: "Portland, OR",
+	start: "Pioneer Courthouse Square",
+	organizer: "Terrapin Events", 
+	orgLink: "terrapinevents.com",
+	maxPrices: {
+		x5k: 35,
+		x10k: 50,
+		halfMar: 80 	
+	},
+	priceIncreaseDates: ["09-15-2015", "10-01-2015", "10-20-2015"],
+	cap:  1500,
+	timeLimit: "2 hours",
+	swag: ["shirt", "medal", "beer", "food"],
+	
+	
+}
