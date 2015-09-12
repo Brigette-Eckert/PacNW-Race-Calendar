@@ -1,19 +1,19 @@
 <h2 class="race-name"> {{race.name}} </h2>
 <ul class="general">
- <li> Date: {{race.date}}</li>
- <li> Location: {{race.location}}</li>
- <li> Start Location: {{race.start}}</li>
- <li> Hosted By: {{race.organizer}}</li>
- <li> Race Website: {{race.orgLink}}</li>
- <li> Bag Check Avalible: {{race.bagCheck}}
- <li> Partipant Cap: {{race.cap}}</li>
- <li> Theme: {{race.theme}}</li>
+ <li> <b>Date: </b> {{race.date}}</li>
+ <li> <b>Location: </b> {{race.location}}</li>
+ <li> <b>Start Location: </b>{{race.start}}</li>
+ <li class="orglink"> <b> Hosted By: </b> <a ng-href = "{{race.orgLink}}"> {{race.organizer}} </a></li>
+ <li> <b>Bag Check Avalible?:</b> {{race.bagCheck}}
+ <li> <b>Partipant Cap:</b> {{race.cap}}</li>
+ <li> <b>Theme: </b>{{race.theme}}</li>
 </ul>
 
-<ul class="spefic info">
- 	<li> Dist </li>
- 	<li>startTime</li>
- 	<li>limit</li>
- 	<li>prices</li>
- 	<li>Swag</li>
+<ul class="details">
+	<h4> Events </h4  ng-repeat= "races in race">
+ 	<li> {{races.distance}} </li>
+ 	<li> {{races.startTime}}</li>
+ 	<li>{{races.limit}}</li>
+ 	<li>{{races.prices}}</li>
+ 	<li>{{races.swag}}</li>
  </ul>

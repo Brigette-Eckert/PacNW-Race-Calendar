@@ -3,15 +3,22 @@ var app = angular.module('RaceApp', ['ngRoute']);
 
 app.config(function($routeProvider){
 	$routeProvider
-		.when('/'{
+		.when('/', {
 			controller: 'CalendarController',
 			templateUrl: 'views/calendar.html'
 		})
 		
-		.when('/:raceId', {
+		.when('/races/:raceid', {
 			controller: 'RaceController',
 			templateUrl: 'views/race.html'
 		})
+	
+
+		// .when('/days/:dateid', {
+		// 	controller: 'DayController',
+		// 	templateUrl: 'views/day.html'
+		// })
+
 
 		.otherwise({
 			redirectTo: '/'

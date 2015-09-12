@@ -2,7 +2,7 @@ var fs = require("fs");
 
 function Race(name, date, location, start, organizer, orgLink, cap, bagCheck, theme) {
 	this.name = name,
-	this.date = new Date(date),
+	this.date = date,
 	this.location = location, 
 	this.start = start,
 	this.organizer = organizer,
