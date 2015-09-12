@@ -1,0 +1,1 @@
+A race calenader for Oregon & Washington built with angular javascript.  Please email or submit a push if you want to add a race to the calendar. 
