@@ -916,9 +916,7 @@ main .ui-state-active a:visited {
 
 /* Interaction Cues
 ----------------------------------*/
-main .ui-state-highlight,
-main .ui-widget-content .ui-state-highlight,
-main .ui-widget-header .ui-state-highlight {
+main .ui-widget-content.ui-state-highlight {
 	border: 1px solid #052f57;
 	background: #0b58a2 url("images/ui-bg_dots-medium_30_0b58a2_4x4.png") 50% 50% repeat;
 	color: #ffffff;

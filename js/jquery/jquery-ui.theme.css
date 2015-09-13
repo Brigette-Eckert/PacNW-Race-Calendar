@@ -30,7 +30,7 @@ main .ui-widget button {
 }
 main .ui-widget-content {
 	border: 1px solid #000000;
-	background: #111111 url("images/ui-bg_gloss-wave_20_111111_500x100.png") 50% top repeat-x;
+	background: url("images/ui-bg_dots-small_20_333333_2x2.png") 50% 50% repeat;
 	color: #d9d9d9;
 }
 main .ui-widget-content a {
@@ -101,10 +101,7 @@ main .ui-state-active a:visited {
 
 /* Interaction Cues
 ----------------------------------*/
-main .ui-state-highlight,
-main .ui-widget-content .ui-state-highlight,
-main .ui-widget-header .ui-state-highlight {
-	border:0;
+main .ui-widget-content.ui-state-highlight {
 	background: #0b58a2 url("images/ui-bg_dots-medium_30_0b58a2_4x4.png") 50% 50% repeat;
 	color: #ffffff;
 }
