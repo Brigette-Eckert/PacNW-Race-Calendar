@@ -12,16 +12,31 @@
 	<script src="js/vendors/fullcalendar/fullcalendar.js"></script>
 	<!---CSS-->
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap-nightly.css">
 	<link rel="stylesheet" href="js/vendors/fullcalendar/fullcalendar.css">
 	<link rel="stylesheet" href="css/main.css">
 
 </head>
 <body ng-app="RaceApp">
-
-  <ng-view></ng-view>
-
+	<header>
+	  <nav class="navbar navbar-fluid navbar-default">
+	    <div class="container-fluid">
+	      <div class="navbar-header">
+	        <a class="navbar-brand" href="#">Pacific NW Race Calendar</a>
+	      </div>
+	      <ul class="nav navbar-nav navbar-right nav-pills">
+	        <li><a href="#/" class="active">Home</a></li>
+	        <li><a href="#/">Races</a></li>
+	        <li><a href="#/">Contact</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+	</header>
+	<main class="container">
+	  <ng-view></ng-view>
+	</main>
   
-	<footer>
+	<footer class="container">
 		<p> If you would like to add your race, email me at <a id="email" href="brigette.eckert@live.com"> Brigette.Eckert@live.com </a> </p>	
 	</footer>
 
