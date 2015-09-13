@@ -28,16 +28,14 @@ angular.module('RaceApp', ['ngRoute'])
 .controller('CalendarController', ['$scope', '$races', '$routeParams', function($scope, $races, $routeParams) {
 	$races.success(function(data){
 		$('#calendar').fullCalendar({
-			events: data
+			events: data,
+			theme: true
 		});
-
-
-
 	});
 }])
 
 .controller('RaceController', ['$scope', '$races', '$routeParams', function($scope, $races, $routeParams) {
 	$races.success(function(data){
 		$scope.race = data[$routeParams.raceid];
-			});
+	});
 }])
