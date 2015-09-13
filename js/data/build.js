@@ -1,10 +1,10 @@
 var fs = require("fs");
 
-function Race(name, date, location, start, organizer, orgLink, cap, bagCheck, theme) {
-	this.name = name,
-	this.date = date,
-	this.location = location, 
+function Race(title, start, startLocation, city, organizer, orgLink, cap, bagCheck, theme) {
+	this.title = title,
 	this.start = start,
+	this.city = city,
+	this.startLocation = startLocation,
 	this.organizer = organizer,
 	this.orgLink = orgLink,
 	this.cap = cap,
