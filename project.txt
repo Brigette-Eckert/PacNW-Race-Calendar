@@ -1,9 +1,9 @@
 
 research sites: runningintheusa, terrpain sites, run oregon
-JSON Object
 Calenadar plugin 
 View month or day
 
+hide empty strings- ie theme, swag etc?
 
 Displays:  
 
