@@ -35,8 +35,7 @@ angular.module('RaceApp', ['ngRoute'])
 .controller('RaceController', ['$scope', '$races', '$routeParams', function($scope, $races, $routeParams) {
 	$races.success(function(data){
 		$scope.race = data[$routeParams.raceid];
-		// $scope.events =$scope.race.races[] placeholder for ng-repeat?
-		console.log($scope.race.races[0]);
-
-	});
+		console.log($scope.race.races[0].swag);
+		console.log($scope.race.races[0].prices)
+			});
 }])

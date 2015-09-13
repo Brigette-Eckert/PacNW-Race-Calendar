@@ -16,13 +16,9 @@ function Race(name, date, location, start, organizer, orgLink, cap, bagCheck, th
 			distance: dist,
 			startTime: startTime,
 			timeLimit: limit,
-			prices:{},
+			prices: prices,
 			swag: swag
-		}
-		//need to figure out how to add price increases
-		for(var i=0;i<prices.length;i++) {
-			var tier = "tier" + (i+1); 
-			race.prices[tier] = prices[i];
+
 		}
 		this.races.push(race);
 		//add tier date method
