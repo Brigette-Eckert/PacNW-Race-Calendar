@@ -1,8 +1,17 @@
-:root{
-	background: #003D00;
-	color: #FFFF99;
+* {
+	box-sizing:border-box;
 }
+.navbar {
+	font-size:16px;
+}
+.fc-state-highlight {
+  color:#2b3e50;
+  font-weight: bold;
+}
+main {
+	
 
+}
 #email {
 	text-decoration: none;
 	color: #FFFF99;
