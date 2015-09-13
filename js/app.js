@@ -27,15 +27,17 @@ angular.module('RaceApp', ['ngRoute'])
 
 .controller('CalendarController', ['$scope', '$races', '$routeParams', function($scope, $races, $routeParams) {
 	$races.success(function(data){
-		console.log(data)
-		$('#calendar').fullCalendar();
+		$('#calendar').fullCalendar({
+			events: data
+		});
+
+
+
 	});
 }])
 
 .controller('RaceController', ['$scope', '$races', '$routeParams', function($scope, $races, $routeParams) {
 	$races.success(function(data){
 		$scope.race = data[$routeParams.raceid];
-		console.log($scope.race.races[0].swag);
-		console.log($scope.race.races[0].prices)
 			});
 }])
