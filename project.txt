@@ -1,7 +1,7 @@
 
 
 hide empty strings- ie theme, swag etc
-Url- race name
-view race name rather than RaceId
+Url- find a way to access by name rather than place for event & for browser url
+
 Color Code for Longest Distance on Calander 
 Future: Add submit form  (with Mean or PHP)

@@ -9,7 +9,7 @@ angular.module('RaceApp', ['ngRoute'])
 			controller: 'RaceController',
 			templateUrl: 'views/race.html'
 		})
-		
+
 		.otherwise({
 			redirectTo: '/'
 		});
