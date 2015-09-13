@@ -9,10 +9,7 @@ angular.module('RaceApp', ['ngRoute'])
 			controller: 'RaceController',
 			templateUrl: 'views/race.html'
 		})
-		// .when('/days/:dateid', {
-		// 	controller: 'DayController',
-		// 	templateUrl: 'views/day.html'
-		// })
+		
 		.otherwise({
 			redirectTo: '/'
 		});
