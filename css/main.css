@@ -1,16 +1,27 @@
 * {
-	box-sizing:border-box;
+  box-sizing:border-box;
 }
 .navbar {
 	font-size:16px;
 }
+footer {
+	margin-top:40px;
+}
 
-main {
-	
+.r5k {
+	background-color: #2E2EB8;
+}
+
+.r10k {
+	background-color: #009900;
 
 }
 
+.half {
+  background-color: #8F246B;
+}
 
-footer {
-	margin-top:40px;
+
+.full {
+	background-color: #E60000;
 }

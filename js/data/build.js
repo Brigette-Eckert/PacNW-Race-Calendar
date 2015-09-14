@@ -1,9 +1,11 @@
 var fs = require("fs");
-function Race(title, start, raceid, className, startLocation, city, organizer, orgLink, cap, bagCheck, theme) {
+var raceid = 0
+function Race(title, start, className, startLocation, city, organizer, orgLink, cap, bagCheck, theme) {
 	this.title = title,
 	this.start = start,
-	this.raceid= raceid
+	this.raceid= raceid;
 	this.url = "#/races/" + this.raceid,
+	raceid ++;
 	this.className = className,
 	this.city = city,
 	this.startLocation = startLocation,
@@ -22,9 +24,10 @@ function Race(title, start, raceid, className, startLocation, city, organizer, o
 			swag: swag
 
 		}
+
 		this.races.push(race);
-		//add tier date method
 	}
+
 
 };
 

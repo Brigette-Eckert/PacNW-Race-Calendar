@@ -1,3 +1,18 @@
+<script> 
+//trying to hide empty list items
+console.log("race view test");
+$("ul.general li").each(function(){
+	console.log($(this).text());
+	// if($(this).text() !="trying to hide stuff"){
+	// 	$(this).addClass("ng-hide")
+	// 	console.log("hiding stuff")
+	// }
+});
+
+$("ul.details li").each(function(){
+	console.log("Details")
+});
+</script>
 <h2 class="race-name"> {{race.title}} </h2>
 <ul class="general">
  <li> <b>Date: </b> {{race.start}}</li>
@@ -18,3 +33,4 @@
  	<li><b>Swag: </b>{{race.swag.join(", ")}}</li>
  </ul>
  </div>
+
