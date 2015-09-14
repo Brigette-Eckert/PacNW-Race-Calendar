@@ -1,36 +1,21 @@
-<script> 
-//trying to hide empty list items
-console.log("race view test");
-$("ul.general li").each(function(){
-	console.log($(this).text());
-	// if($(this).text() !="trying to hide stuff"){
-	// 	$(this).addClass("ng-hide")
-	// 	console.log("hiding stuff")
-	// }
-});
-
-$("ul.details li").each(function(){
-	console.log("Details")
-});
-</script>
 <h2 class="race-name"> {{race.title}} </h2>
 <ul class="general">
  <li> <b>Date: </b> {{race.start}}</li>
  <li> <b>Location: </b> {{race.city}}</li>
- <li> <b>Start Location: </b>{{race.startLocation}}</li>
- <li class="orglink"> <b> Hosted By: </b> <a ng-href = "{{race.orgLink}}"> {{race.organizer}} </a></li>
- <li> <b>Bag Check Avalible?:</b> {{race.bagCheck}}
- <li> <b>Partipant Cap:</b> {{race.cap}}</li>
- <li> <b>Theme: </b>{{race.theme}}</li>
+ <li ng-hide="race.startLocation == ''"> <b>Start Location: </b>{{race.startLocation}}</li>
+ <li class="orglink" ng-hide="race.organizer == ''"> <b> Hosted By: </b> <a ng-href = "{{race.orgLink}}"> {{race.organizer}} </a></li>
+ <li ng-hide="race.bagCheck == ''"> <b>Bag Check Avalible?:</b> {{race.bagCheck}}
+ <li ng-hide="race.cap == ''"> <b>Partipant Cap:</b> {{race.cap}}</li>
+ <li ng-hide="race.theme == ''"> <b>Theme: </b>{{race.theme}}</li>
 </ul>
 
 <div ng-repeat= "race in race.races">
 	<h4> {{race.distance}}  </h4 >
 <ul class="details">
- 	<li> <b>Start Time: </b>{{race.startTime}}</li>
- 	<li> <b>Time Limit: </b>{{race.timeLimit}}</li>
- 	<li> <b>Prices:</b>{{race.prices.join(", ")}}</li>
- 	<li><b>Swag: </b>{{race.swag.join(", ")}}</li>
+ 	<li ng-hide="race.startTime == ''"> <b>Start Time: </b>{{race.startTime}}</li>
+ 	<li ng-hide="race.timeLimit == ''"> <b>Time Limit: </b>{{race.timeLimit}}</li>
+ 	<li ng-hide="race.prices == ''"> <b>Prices:</b>{{race.prices.join(", ")}}</li>
+ 	<li ng-hide="race.swag == ''"><b>Swag: </b>{{race.swag.join(", ")}}</li>
  </ul>
  </div>
 

@@ -30,7 +30,7 @@ raceArr.push(runLikeHell15);
 
 //November 2015 Races
 
-var purpleStride15 = new race("PurpleStride Puget Sound", "r5k", "2015-11-01",  "Seattle, WA", "Magnuson Park - Hangar 30", "Pancreatic Cancer Action Network", "http://purplestride.kintera.org/faf/home/default.asp?ievent=1136780&lis=1&kntae1136780=1F3F5806E8AC432DA54E18145E426A6C", "", "", "");
+var purpleStride15 = new race("PurpleStride Puget Sound", "2015-11-01", "r5k", "Seattle, WA", "Magnuson Park - Hangar 30", "Pancreatic Cancer Action Network", "http://purplestride.kintera.org/faf/home/default.asp?ievent=1136780&lis=1&kntae1136780=1F3F5806E8AC432DA54E18145E426A6C", "", "", "");
 
 		purpleStride15.addRace("5K Survivor", "Opening Ceremonies 9:10am, Race 9:30am", "", ["Pre-Event: $0", "Race Day: $0"], ["shirt"]);
 		purpleStride15.addRace("5K Adult Timed", "Opening Ceremonies 9:10am, Race 9:30am", "", ["Pre-Event: $30", "Race Day: $35"], ["shirt"]);

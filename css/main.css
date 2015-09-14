@@ -56,3 +56,10 @@ footer {
 	height: 25px;
 	background-color:#E60000;
 }
+
+#profilepic {
+	height: 300px;
+	border-radius: 25%;
+	float: left;
+	clear: both;
+}

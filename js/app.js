@@ -10,6 +10,14 @@ angular.module('RaceApp', ['ngRoute'])
 			templateUrl: 'views/race.html'
 		})
 
+		.when('/racelist', {
+			controller: 'ListController',
+			templateUrl: 'views/racelist.html'
+		})
+
+		.when('/contact', {
+			templateUrl: 'views/contact.html'
+		})
 		.otherwise({
 			redirectTo: '/'
 		});
@@ -34,5 +42,13 @@ angular.module('RaceApp', ['ngRoute'])
 .controller('RaceController', ['$scope', '$races', '$routeParams', function($scope, $races, $routeParams) {
 	$races.success(function(data){
 		$scope.race = data[$routeParams.raceid];
+
+	});
+}])
+
+.controller('ListController', ['$scope', '$races', '$routeParams', function($scope, $races, $routeParams) {
+	$races.success(function(data){
+		$scope.raceinfo = data;
+		console.log(data)
 	});
 }])
