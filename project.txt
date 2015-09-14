@@ -1,16 +1,7 @@
 
 
 hide empty strings- ie theme, swag etc
-Url- find a way to access by name rather than place for event & for browser url or automatially get 
-raceArr[i] rather than manually input
 
-Color Code for Longest Distance on Calander
-make color key
 
-5k: blue #2E2EB8
-10k: green #009900
-half: purple #8F246B
-full: Red #E60000
-Ultra: tbd
  
 Future: Add submit form  (with Mean or PHP)

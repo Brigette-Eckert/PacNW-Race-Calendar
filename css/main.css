@@ -25,3 +25,34 @@ footer {
 .full {
 	background-color: #E60000;
 }
+
+#legend {
+	padding: 20px;
+
+}
+#legend li {
+	display: inline-block;
+}
+#key-5k {
+	width: 150px;
+	height: 25px;
+	background-color: #2E2EB8;
+}
+
+#key-10k {
+	width: 150px;
+	height: 25px;
+	background-color: #009900;
+}
+
+#key-half {
+	width: 150px;
+	height: 25px;
+	background-color: #8F246B;
+}
+
+#key-full {
+	width: 150px;
+	height: 25px;
+	background-color:#E60000;
+}

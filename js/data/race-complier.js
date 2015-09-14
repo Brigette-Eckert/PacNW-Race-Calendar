@@ -57,14 +57,14 @@ var hotButteredRun15 = new race ("Hot Buttered Run", "2015-11-29", "half", "Vanc
 	raceArr.push(hotButteredRun15);
 
 //December 2015 Races
-//6
+
 var hoHo15 = new race("Ho Ho 5k", "2015-12-06", "r5k", "Tigard, OR", "Cook Park", "X-Dog Events", "http://www.xdogevents.com/hoho.html", "", "", "Winter Holidays");
 
 	hoHo15.addRace("5k Adult", "10am", "", ["Tier 1: $15", "Tier 2: $20"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Ages 6-12", "10am", "", ["Tier 1: $8", "Tier 2: $11"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Under 6", "10am", "", ["$5"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	raceArr.push(hoHo15);
-//7
+
 var jingleBell15 = new race("Jingle Bell 5k", "2015-12-06", "r5k", "Portland, OR", "World Trade Center", "The Arthritis, Foundation", "http://www.jbr.org/faf/home/default.asp?ievent=1138292", "", "", "Winter Holidays" );
 	
 	jingleBell15.addRace("5k Adult", "8:50am", "", ["Before 11/01: $30"], ["shirt", "jingle bells"]);
@@ -73,14 +73,14 @@ var jingleBell15 = new race("Jingle Bell 5k", "2015-12-06", "r5k", "Portland, OR
 	jingleBell15.addRace("Jingle in Your Jammies (Vitrual)", "", "", ["Without Shipping: $25", "With Shipping: $31" ], ["shirt", "jingle bells"]);
 
 	raceArr.push(jingleBell15);
-//8
+
 var holidayHalf15 = new race("Holiday Half & 5k", "2015-12-13", "half", "Portland, OR", "Addias North America Campus", "Foot Traffic", "http://foottraffic.us/the-races/holiday/", "", "", "Winter Holidays");
 	
 	holidayHalf15.addRace("Half", "8am", "15min/mi", ["7/15 to 9/1: $69", "9/2 to 10/15: $77", "10/16 to 11/1: $82", "11/2 to 11/9: $82 \(no name on bib\)", "11/10 until Full: $82 \(no name on bib and shirt not guaranteed\)", "Race Day: $90 \(no name on bib and shirt not guaranteed\)"], ["finisher medal", "shirt", "name on bib", "food", "beer", "music"]);
 	holidayHalf15.addRace("5k","8:15am", "", ["7/15 to 9/1: $36", "9/2 to 10/15: $39", "10/16 to 11/1: $41", "11/2 to 11/9: $41 \(no name on bib\)", "11/10 until Full: $41 \(no name on bib and tech shirt subbed with cotton shirt\)", "Race Day: $45 \(no name on bib and shirt not guaranteed\)"], ["finisher medal", "shirt", "name on bib", "food", "beer", "music"] );
 
 	raceArr.push(holidayHalf15);
-// var name = new race(title, date, number in race Arr, className(ie longest dist offered (5k, 10k, half, full, ultra etc)) city, startLocation, organizer, orgLink, cap, bagCheck, theme);
+// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) city, startLocation, organizer, orgLink, cap, bagCheck, theme);
 //raceName.addRace("dist", "startTime", limit, [prices], [swag]);
 // raceArr.push(title);
 
