@@ -42,9 +42,32 @@ var eugeneRaceForTheCure15 = new race("Race for the Cure", "2015-10-04", "r5k", 
 
 	raceArr.push(eugeneRaceForTheCure15);
 
+var stepsToSafety15 = new race("Steps to Safety", "2015-10-10", "r10k", "Salem, OR", "Department of Public Safety: Standards and Training", "Eclectic Edge Racing", "http://www.mcdvcouncil.org/home.html", "", "", "");
+
+	stepsToSafety15.addRace("5k", "9:30am", "" ["$30 \(Online Registration Ends 10/07\)"], ["shirt", "food", "drinks"]);
+	stepsToSafety15.addRace("10k: Runners Only", "9am", "", ["$30 \(Online Registration Ends 10/07\)"], ["shirt ", "food ", "drinks"]);
+
+
+	raceArr.push(stepsToSafety15);
+
+var crabFest15 = new race("CrabFest 5k", "2015-10-10", "r5k", "Sequim, WA", "Dungeness Crab & Seafood Festival", "http://www.crabfestival.org/crab-fest-5k-runwalkscuttle/", "", "", "");
+
+	crabFest15.addRace("5k", "11am", "", ["Until 9/30: $30", "10/1 – 10/10: $34"], ["shirt", "$4 discount coupon for crab dinner", "Beer/Wine/Soda", "Free Crab Derby Run"]);
+
+	raceArr.push(crabFest15);
+
+var monsterDash15 = new race("Monster Dash", "2015-10-10", "r10k", "St Helens, OR", "Columbia View Park", "Rotary Club of Columbia County", "http://www.sthelensmonsterdash.com/", "", "no", "Halloween/Run for Your Life/Zombies");
+
+	monsterDash15.addRace("5k", "5pm", "", ["Before 9/15: $30", "9/16 – 10/1: $35 \(shirt not guaranteed\)",  "10/2 – 10/10: $40 \(shirt not guaranteed\)"], ["shirt", "food", "drinks"]);
+	monsterDash15.addRace("10k", "5pm", "", ["Before 9/15: $40", "9/16 – 10/1: $45 \(shirt not guaranteed\)", "10/2 – 10/10: $50 \(shirt not guaranteed\)"], ["shirt", "food", "drinks"]);
+	monsterDash15.addRace("Monster Mile", "5pm", "", ["$5"], ["food", "drinks"]);
+
+	 raceArr.push(monsterDash15);
+
+
 var girlfriends15 = new race("Girlfriends Run for a Cure Half & Quater Marathon", "2015-10-11", "half", "Vancouver, WA", "Northwest Personal Training 1011 Broadway", "Why Racing Events", "http://whyracingevents.com/event/693/" , "", "yes", "");
 		girlfriends15.addRace("Quater", "9am", "", ["$80"], ["shirt", "finisher's necklace presented by a fireman", "food", "drinks", "chocolate", "massage", "chiropractic treatment", "stretching session", "acupuncture treatment"]);
-		girlfriends15.addRace("Half", "9am", "", ["$80"], ["shirt", "finisher's necklace presented by a fireman", "food", "drinks", "chocolate", "massage", "chiropractic treatment", "stretching session", "acupuncture treatment"]);
+		girlfriends15.addRace("Half", "9am", "4.5hrs", ["$80"], ["shirt", "finisher's necklace presented by a fireman", "food", "drinks", "chocolate", "massage", "chiropractic treatment", "stretching session", "acupuncture treatment"]);
 		girlfriends15.addRace("Kids Mini-Marathon \(1.1 miles\)", "12:15pm", "", ["$30"], ["shirt", "goody bag", "medal"]);
 	raceArr.push(girlfriends15);
 
@@ -58,6 +81,49 @@ var stageCoach15 = new race("Stagecoach Run", "2015-10-17", "r10k", "Jacksonvill
 	stageCoach15.addRace("5k Youth Ages 18 & Under", "8:30am", "", ["Before 10/14: $7", "10/14-10/17: $20"], [""]);
 	
 	raceArr.push(stageCoach15);
+
+var bayToBrews15 = new race("Bays to Brews", "2015-10-17", "half",  "Newport, OR", "Rogue Ales & Spirits", "Run with Palua Events", "http://runwithpaula.com/bay-to-brews-half-marathon-10k/", "", "", "");
+
+	bayToBrews15.addRace("10k", "8am", "", ["Until 10/16: $49", "Race Day: $65  /(shirt not guaranteed/)"], ["shirt ", "finisher medal ", "beer ", "food ", "live music"]);
+
+	bayToBrews15.addRace("Half", "8am", "", ["Until 10/16: $75", "Race Day: $90  /(shirt not guaranteed/)"], ["shirt ", "finisher medal ", "beer ", "food ", "live music"]);
+
+	raceArr.push(bayToBrews15);
+
+
+
+var  lakePaddenTrailHalf15 = new race("Lake Padden Trail Half Marathon", "2015-10-17", "half", "Bellingham, WA", "Lake Padden Park East Entrance" , "Lake Padden Trail Half", "http://www.lakepaddentrailhalf.org/", "", "", "");
+
+	lakePaddenTrailHalf15.addRace("5k", "9am", "", ["$25"],["food", "drink", "post race party"]);
+
+	lakePaddenTrailHalf15.addRace("Half", "10am", "4hrs", ["Until 9/30 $45", "After 9/30 $65"], ["food", "drink", "post race party"]);
+
+	raceArr.push(lakePaddenTrailHalf15);
+
+
+
+
+var happyGirlsSisters15 = new race("Happy Girls Run – Sisters", "2015-10-24", "half", "Sisters, OR",  "Five Pine Lodge Campus", "Lay It Out Events", "http://happygirlsrunsisters.com/race-info/event-schedule/", "", "", "trail run \(half only\)");
+
+	happyGirlsSisters15.addRace("5k", "9:30am", "", ["8/25-9/24: $35", "9/25-10/22: $40"], ["shirt", "swag bag", "drinks", "food"]);
+
+	happyGirlsSisters15.addRace("Half", "9am", "4hrs", ["8/25-9/24: $85" , "9/25-10/22: $90"], ["commemorative belt buckle", "shirt", "swag bag", "drinks", "food"]);
+
+	raceArr.push(happyGirlsSisters15);
+
+
+var columbiaGorge15 = new race("Columbia Gorge Marathon & Half", "2015-10-25", "full", "Hood River, OR", "Mark O. Hatfield West Trailhead", "Breakaway Promotions LLC", "http://www.columbiagorgemarathon.com/", "1500", "yes", ""); 
+
+	columbiaGorge15.addRace("Half", "9:30am,  \(Early Start: All competitors who believe they will be on course longer than six hours are welcome to be at the start line at 8am and we will have an official start for you!\)", "", ["Before 1/1: $70" ," Before  4/1: $75 ", "Before: 10/1: $85 ", "After 10/1: $100 ", "**No Race Day Registration**"], ["beanie ", "gear check bag ", "ceramic finisher medal ", "food", "beer", "hot apple cider"]);
+
+	columbiaGorge15.addRace("Dog Leg Half Marathon \(Dog Friendly\)", "9:30am", "", ["Before 1/1: $80" , "Before  4/1:  $85" , "Before: 10/1: $90" , "After 10/1: $110 ", "**No Race Day Registration**"], ["beanie ", "gear check bag ", "ceramic finisher medal ", "food", "beer", "hot apple cider"]);
+
+	columbiaGorge15.addRace("2 Person Half Relay", "9:30am \(Early Start: All competitors who believe they will be on course longer than six hours are welcome to be at the start line at 8am and we will have an official start for you!\)", "",["Before 1/1:  $85 ", "Before  4/1: $90  ", "Before: 10/1: $100 ",  "After 10/1: $115 ", "**No Race Day Registration** "], ["beanie ", "gear check bag ", "ceramic finisher medal ", "food", "beer", "hot apple cider"]);
+
+	columbiaGorge15.addRace("Full", "9:00am \(Early Start: All competitors who believe they will be on course longer than six hours are welcome to be at the start line at 8am and we will have an official start for you!\)", "",["Before 1/1:  $85" , "Before  4/1:  $90" , "Before: 10/1: $100 ", "After 10/1: $115  ", "**No Race Day Registration** "], ["beanie ", "gear check bag ", "ceramic finisher medal ", "food", "beer", "hot apple cider"]);
+
+	raceArr.push(columbiaGorge15);
+
 	
 var runLikeHell15 = new race("Run Like Hell", "2015-10-25", "half","Portland, OR", "Pioneer Courthouse Square", "Terrapin Events", "http://terrapinevents.com/event/run-like-hell-portland-half-marathon/", 5000, "Yes", "Halloween/Under the Big Top" );
 
@@ -67,6 +133,25 @@ var runLikeHell15 = new race("Run Like Hell", "2015-10-25", "half","Portland, OR
 		runLikeHell15.addRace("Kid's Half Miler", "TBA", "N/A", ["Tier 1: $8", "Race Weekend: $12"],  ["food", "live music"]);
 
 	raceArr.push(runLikeHell15);
+
+var ashlandMonsterDash15 = new race("Monster Dash", "2015-10-31", "r10k", "Ashland, OR", "Ashland Schools Foundation", "http://www.ashlandmonsterdash.com/", "", "", "Halloween");
+
+	ashlandMonsterDash15.addRace("Youth 1 Mile Fun Run Ages: 18 & Under", "10:30am", "", ["$10"], ["finisher medal"] );
+
+	ashlandMonsterDash15.addRace("Adult 1 Mile Fun Run", "10:30am", "", ["Before 10/30: $15 ", "Race Weekend: $20"], [""]);
+
+	ashlandMonsterDash15.addRace("Youth 5k Ages: 18 & Under", "11:15am", "", ["$10"], ["finisher medal"] );
+
+		ashlandMonsterDash15.addRace("Adult 5k", "11:15am", "", [" Before 10/12: $20",  " Before 10/29: $25", " Race Weekend: $30"], [""]);
+
+	ashlandMonsterDash15.addRace("Youth 10k Ages: 18 & Under", "11:15am", "", ["$10"], ["finisher medal"] );
+
+		ashlandMonsterDash15.addRace("Adult 10k", "11:15am", "",["Before 10/12: $20",  " Before 10/29: $25", " Race Weekend: $30"], [""]);
+
+
+	raceArr.push(ashlandMonsterDash15);
+
+
 
 //November 2015 Races
 
