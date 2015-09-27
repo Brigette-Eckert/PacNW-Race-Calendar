@@ -71,6 +71,13 @@ var girlfriends15 = new race("Girlfriends Run for a Cure Half & Quater Marathon"
 		girlfriends15.addRace("Kids Mini-Marathon \(1.1 miles\)", "12:15pm", "", ["$30"], ["shirt", "goody bag", "medal"]);
 	raceArr.push(girlfriends15);
 
+var greatColumbiaCrossing15 = new race("The Great Columbia Crossing","2015-10-11","r10k","Astoria, OR", "Dismal Nitch, WA","Astoria Warrenton Area Chamber of Commerce","http://www.greatcolumbiacrossing.com/","3,500","yes","");
+
+	greatColumbiaCrossing15.addRace("10k Run/Competitive Walk \(Timed\)","Runners: 8:45am,  Walkers: 9:00am","2hrs", ["$45"], ["shuttle bus service to start of race from the Port of Astoria (OR) or the Port of Chinook (WA)","light snacks" ," 5 Clam Bucks"]);
+	greatColumbiaCrossing15.addRace("10k Walk \(untimed\) ","9am","2hrs", ["$40"], 
+		["shuttle bus service to start of race from the Port of Astoria (OR) or the Port of Chinook (WA)","light snacks" , "5 Clam Bucks"]);
+	raceArr.push(greatColumbiaCrossing15);
+
 var stageCoach15 = new race("Stagecoach Run", "2015-10-17", "r10k", "Jacksonville, OR", "Oregon St. and West D St.", "Southern Oregon Runners", "https://secure.getmeregistered.com/get_information.php?event_id=122284", "", "", "");
 	//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
 	stageCoach15.addRace("10k Adult SOR Members", "8:30am", "", ["Before 10/14: $12", "10/14-10/17: $20"], [""]);
@@ -99,6 +106,37 @@ var  lakePaddenTrailHalf15 = new race("Lake Padden Trail Half Marathon", "2015-1
 	lakePaddenTrailHalf15.addRace("Half", "10am", "4hrs", ["Until 9/30 $45", "After 9/30 $65"], ["food", "drink", "post race party"]);
 
 	raceArr.push(lakePaddenTrailHalf15);
+
+dawgDash15 = new race("Dawg Dash", "2015-10-18", "r10k", "Seattle, WA", "Red Square on UW Campus",  "University of Washington", "http://depts.washington.edu/alumni/blogs/dawgdash/races/seattle/", "", "yes", "");
+
+	dawgDash15.addRace("5k Student - Dog Friendly \(Student ID number required\)", "9am", "", ["Until 10/17: $20"], ["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("5k UWAA & UWRA Members - Dog Friendly \(UWAA number required\)", "9am", "", ["Until 09/30: $25", "10/1 – 10/17: $30"], ["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("5k  Faculty & Staff -Dog Friendly \(Faculty/Staff ID number required\)",  "9am", "",["Until 09/30: $25", "10/1 – 10/17: $30"],["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("5k Public -Dog Friendly ", "9am", "", ["Until 10/17: $35"],["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("10k Student - Dog Friendly \(Student ID number required\)", "9:20am", "", ["Until 10/17: $25"], ["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("10k UWAA & UWRA Members  - Dog Friendly \(UWAA number required\)", "9:20am", "", ["Until 09/30: $30", "10/1 – 10/17: $35"],["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("10k  Faculty & Staff -Dog Friendly \(Faculty/Staff ID number required\)",  "", "9am", "", ["Until 09/30: $30", "10/1 – 10/17: $35"],["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("10k Public - Dog Friendly", "9:20am", "", ["Until 10/17:  $40"], ["shirt", "food", "drinks", "entertainment"]);
+	dawgDash15.addRace("Husky Pups Run -Kids Dash – Ages 10 & Under", "10:30am", "", ["$0"], ["ribbon", "food"]);
+	raceArr.push("dawgDash15");
+sekaniTrailRun15 = new race ("Sekani Trail Run", "2015-10-18",  "r10k", "Spokane, WA", "Camp Sekani Park", "Sekani Trail Run", "http://sekanitrailrun.com/", "", "", "Trail Run");
+
+	sekaniTrailRun15.addRace("5k", "10am", "", ["Until 10/9: $20", "Race Day: $25"], ["caramel apple", "cider"]);
+	sekaniTrailRun15.addRace("10k", "10:25am", "", ["Until 10/9: $20", "Race Day: $25"], ["caramel apple", "cider"]);
+	sekaniTrailRun15.addRace("Running Kids 1k – Ages 12 & Under", "9:40am", "", ["$0"], ["caramel apple", "cider"]);
+
+raceArr.push(sekaniTrailRun15);
+
+
+ 
+
+dirtyDuck15 = new race("Dirty Duck", "2015-24-15", "r5k", "Eugene, OR", "University of Oregon", "Dirty Duck",  "http://dirtyduck5k.com/", "2,500",  "", "feather & color run");
+	
+	dirtyDuck15.addRace("5k Adult", "10am", "", ["Until 9/30: $45", "9/30-10/22: $50"], ["sunglasses", "snacks", "after party"]);
+	dirtyDuck15.addRace("5k Youth – Ages 6-14", "10am", "", ["Until 10/22: $15"], ["sunglasses", "snacks", "after party"] );
+	dirtyDuck15.addRace("5k Kids – Ages 5 & under", "10am",  "", ["$0"], ["sunglasses", "snacks", "after party"] );
+	
+raceArr.push(dirtyDuck15);
 
 
 
