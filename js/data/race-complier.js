@@ -118,7 +118,7 @@ var dawgDash15 = new race("Dawg Dash", "2015-10-18", "r10k", "Seattle, WA", "Red
 	dawgDash15.addRace("10k  Faculty & Staff -Dog Friendly \(Faculty/Staff ID number required\)",  "", "9am", "", ["Until 09/30: $30", "10/1 – 10/17: $35"],["shirt", "food", "drinks", "entertainment"]);
 	dawgDash15.addRace("10k Public - Dog Friendly", "9:20am", "", ["Until 10/17:  $40"], ["shirt", "food", "drinks", "entertainment"]);
 	dawgDash15.addRace("Husky Pups Run -Kids Dash – Ages 10 & Under", "10:30am", "", ["$0"], ["ribbon", "food"]);
-	raceArr.push("dawgDash15");
+	raceArr.push(dawgDash15);
 var sekaniTrailRun15 = new race ("Sekani Trail Run", "2015-10-18",  "r10k", "Spokane, WA", "Camp Sekani Park", "Sekani Trail Run", "http://sekanitrailrun.com/", "", "", "Trail Run");
 
 	sekaniTrailRun15.addRace("5k", "10am", "", ["Until 10/9: $20", "Race Day: $25"], ["caramel apple", "cider"]);
@@ -187,6 +187,11 @@ var ashlandMonsterDash15 = new race("Monster Dash", "2015-10-31", "r10k", "Ashla
 
 
 	raceArr.push(ashlandMonsterDash15);
+	
+
+var zombieMudRun15 = new race("Zombie Mud Run", "2015-10-31", "", "Pendleton, OR", "Wildhorse Shelter at Community Park West", "Pendleton Parks & Recreation", "http://www.active.com/pendleton-or/running/zombie-mud-run-2015?cmp=39-34-156210&ltcmp=254301&ltclickid=10_24722494_620176de-e6e5-4309-8d05-fb2dd326e6ed&cmp=39-34", "", "", "Mud Run/Zombies/Halloween");
+	zombieMudRun15.addRace("3k", "8am", "", ["$15"], [""]);
+	raceArr.push(zombieMudRun15);
 
 //November 2015 Races
 
@@ -231,6 +236,12 @@ var seaMustache15 = new race("Mustache Dash - Seattle", "2015-11-08", "r5k", "Se
 	seaMustache15.addRace("Kids Dash", "10am", "", ["$22"], ["shirt", "finisher medal", "photo booth","modelo post-run bache", "food", "drinks", "mechanical bull"]);
 	raceArr.push(seaMustache15);
 
+var pdxMustache15 = new race("Mustache Dash - Portland", "2015-11-14", "r5k", "Beaverton, OR", "Big Al's", "Mustache Dash", "http://mustachedache.com/portland/", "", "", "Mustaches");
+	
+	pdxMustache15.addRace("5k", "10am", "", ["Before Race Day: $40", "Race Day: $45"], ["shirt", "finisher medal", "photo booth", "modelo post-run bache", "food", "drinks", "mechanical bull"], "");
+	pdxMustache15.addRace("Kids Dash", "10am", "", ["$20"], ["shirt", "finisher medal", "photo booth","modelo post-run bache", "food", "drinks", "mechanical bull"]);
+	raceArr.push(pdxMustache15);
+
 var eolaHillsWineCellarsHarvest15 = new race("Eola Hills Wine Cellars Harvest Run", "2015-11-14", "r10k", "Rickreall, OR", "Eola Hills Wine Cellars", "RunSignUp", "https://runsignup.com/Race/OR/Rickreall/nohills?", "", "", "");
 	eolaHillsWineCellarsHarvest15.addRace("5k", "9am", "", ["Before 10/15: $25", "10/15 and After: $35"], ["pizza", "wine, beer or soda"]);
 	eolaHillsWineCellarsHarvest15.addRace("10k", "9am", "", ["Before 10/15: $25", "10/15 and After: $35"], ["pizza", "wine, beer or soda"]);
@@ -248,7 +259,13 @@ var pdxVetsDay15= new race("National Veterans Day Run - Portland", "2015-11-15",
 
 	raceArr.push(pdxVetsDay15);
 
+var flyingHawaiian15 = new race("Flyin' Hawaiian", "2015-11-15", "r5k", "Eugene, OR", "Camp Harlow", "Eclectic Edge Events", "http://www.eclecticedgeracing.com/Flyin__Hawaiian_5K.html", "", "", "Hawaiian");
 
+	flyingHawaiian15.addRace("Adult 5k Fun Run", "2:30pm", "", ["Until 11/14: $20"], [""]);
+	flyingHawaiian15.addRace("Student 5k Fun Run", "2:30pm", "", ["Until 11/14: $15"], [""]);
+	flyingHawaiian15.addRace("Adult 5k Competitive Run", "3pm", "", ["Until 11/14: $20"], [""]);
+	flyingHawaiian15.addRace("Student 5k Competitive Run", "3pm", "", ["Until 11/14: $15"], [""]);
+	raceArr.push(flyingHawaiian15);
 
 var hotButteredRun15 = new race ("Hot Buttered Run", "2015-11-29", "half", "Vancouver, WA", "Esther Short Park", "Engery Events", "http://energyevents.com/hotbutteredrun", "", "", "", "Winter Holidays");
 	hotButteredRun15.addRace("5k Adult", "10am", "", ["4/15 to 6/30: $30", "7/1 to 9/30:	$35", "10/1 to 10/31: $40", "11/1 to 11/14:	$45", "11/15 to 11/22: $45 \(No Shirt Included \), Race Day: $50 \(No Shirt Included \)"], ["shirt", "goodie bag", "food", "hot butter rum or hot cocoa", "after party: music & fun"]);
