@@ -17,7 +17,7 @@ var booDash15 = new race("Boo Dash", "2015-10-03", "r5k", "Federal Way, WA", "Wi
 	booDash15.addRace("5k", "3pm", "", ["Early Bird- until 9/16: $35", "Regular Price- after 9/16: $50"], ["admission to wild waves theme park & fright fest", "glow in the dark partcipant medal", "after party"]);
 	raceArr.push(booDash15);
 
-var mugsAndPugs15 =new race("Mugs and Pugs \(Dog Friendly Event\)", "2015-10-03", "r5k", "Graham, WA", "Graham-Kapowsin High School", "rainierfamilypt", "http://rainierfamilypt.com/mugsandpugs/", "", "", "");
+var mugsAndPugs15 =new race("Mugs and Pugs", "2015-10-03", "r5k", "Graham, WA", "Graham-Kapowsin High School", "rainierfamilypt", "http://rainierfamilypt.com/mugsandpugs/", "", "", "");
 	mugsAndPugs15.addRace("5k Adult", "11am", "", ["$30"], [""]);
 	mugsAndPugs15.addRace("5k Youth Ages 18 & Under", "11am", "", ["$20"], [""]);
 	raceArr.push(mugsAndPugs15);
