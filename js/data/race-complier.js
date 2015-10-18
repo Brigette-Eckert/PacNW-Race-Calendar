@@ -362,20 +362,33 @@ var jingleBellRock15 = new race("Jingle Bell Rock", "2015-12-05", "r5k", "Lakewo
 	jingleBellRock15.addRace("5k *dog friendly event*", "10am", "", ["$0"], ["shirt ", "bells ", "swag bag " , "s'mores ", "cider"]);
 	raceArr.push(jingleBellRock15);
 
+
 var hoHo15 = new race("Ho Ho 5k", "2015-12-06", "r5k", "Tigard, OR", "Cook Park", "X-Dog Events", "http://www.xdogevents.com/hoho.html", "", "", "Winter Holidays");
 	hoHo15.addRace("5k Adult", "10am", "", ["Tier 1: $15", "Tier 2: $20"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Ages 6-12", "10am", "", ["Tier 1: $8", "Tier 2: $11"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Under 6", "10am", "", ["$5"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	raceArr.push(hoHo15);
 
-var jingleBell15 = new race("Jingle Bell 5k", "2015-12-06", "r5k", "Portland, OR", "World Trade Center", "The Arthritis, Foundation", "http://www.jbr.org/faf/home/default.asp?ievent=1138292", "", "", "Winter Holidays" );
-	
+var jingleBell15 = new race("Jingle Bell 5k", "2015-12-06", "r5k", "Portland, OR", "World Trade Center", "The Arthritis, Foundation", "http://www.jbr.org/faf/home/default.asp?ievent=1138292", "", "", "Winter Holidays" );	
 	jingleBell15.addRace("5k Adult", "8:50am", "", ["Before 11/01: $30"], ["shirt", "jingle bells"]);
 	jingleBell15.addRace("5k Kid Ages 12 & Under", "8:50am", "", ["$20"], ["shirt", "jingle bells"]);
 	jingleBell15.addRace("1k Kid's Fun Run with the Elves Ages 10 & Under", "8:30am", "", ["$20"], ["shirt", "jingle bells"]);
 	jingleBell15.addRace("Jingle in Your Jammies (Vitrual)", "", "", ["Without Shipping: $25", "With Shipping: $31" ], ["shirt", "jingle bells"]);
 
 	raceArr.push(jingleBell15);
+
+
+var holidayHustle15 = new race("Holiday Hustle", "2015-12-12", "r5k", "Central Point, OR", "Twin Peaks Park", "Junior League of Jackson County", "https://secure.getmeregistered.com/get_information.php?event_id=122692", "", "", "Winter Holidays");
+	holidayHustle15.addRace("5k Adult", "5pm", "", ["$20"], [""]);
+	holidayHustle15.addRace("5k Kids: Ages 12 & Under", "5pm", "", ["$10"], [""]);
+	raceArr.push(holidayHustle15);
+
+var santaRunsTacoma15 = new race("Santa Runs Tacoma", "2015-12-12", "half", "Tacoma, WA", "State Farm Building", "Tacoma City Marathon Association", "http://santarunstacoma.com/", "1000 for the Half", "yes", "Winter Holidays");
+	santaRunsTacoma15.addRace("Tiny Tim's 1k: Ages 12 & Under", "10:30am", "", ["Before 11/30: $15 ", "12/1-12/9: $17.50 ", "12/10: $20 ", "No Race Day Registration"], ["ribbon"]);
+	santaRunsTacoma15.addRace("Frosty's 5k", "9am", "", ["Before 10/31: $25 ", "11/1-11/30: $30 ", "12/1-12/9: $35", "12/10: $37", "No Race Day Registration"], ["hat"]);
+	santaRunsTacoma15.addRace("The Scrooge 10k", "8:30am", "", ["Before 10/31: $30 ", "11/1-11/30: $35 ", "12/1-12/9: $40", "12/10: $45", "No Race Day Registration"], ["hat"]);
+	santaRunsTacoma15.addRace("Donner and Blitzen's 21k", "8:30am", "4hrs", ["Before 10/31: $60 ", "11/1-11/30: $70 ", "12/1-12/9: $80", "12/10: $90", "No Race Day Registration"], ["hat ", "shirt ", "finsher's medal"]);
+	raceArr.push(santaRunsTacoma15);
 
 var holidayHalf15 = new race("Holiday Half & 5k", "2015-12-13", "half", "Portland, OR", "Addias North America Campus", "Foot Traffic", "http://foottraffic.us/the-races/holiday/", "", "", "Winter Holidays");
 	
