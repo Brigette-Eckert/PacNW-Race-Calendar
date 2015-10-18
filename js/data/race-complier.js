@@ -267,6 +267,86 @@ var flyingHawaiian15 = new race("Flyin' Hawaiian", "2015-11-15", "r5k", "Eugene,
 	flyingHawaiian15.addRace("Student 5k Competitive Run", "3pm", "", ["Until 11/14: $15"], [""]);
 	raceArr.push(flyingHawaiian15);
 
+var beaverBowl15 = new race("Beaver Bowl 5k", "2015-11-21", "r5k", "Corvallis, OR", "OSU Campus Women’s Building", "OSU College of Public Health and Human Sciences", "http://www.eventbrite.com/e/beaver-bowl-5k-and-kids-fun-run-tickets-16323587289", "", "", "Football / OSU Beavers");
+
+	beaverBowl15.addRace("Beaver 1k Challenge", "1k", "9:30am", "", ["$15"], ["shirt", "pizza", "drinks", "tailgate party"]);
+
+	beaverBowl15.addRace("Beaver 5k Student", "5k", "9:30am", "", ["$35"] ["shirt", "pizza", "drinks", "tailgate party"]);
+
+	beaverBowl15.addRace("Beaver 5k Community Member", "5k", "9:30am", "", ["$45"], ["shirt", "pizza", "drinks", "tailgate party"]);
+
+	raceArr.push(beaverBowl15);
+
+var girlsOnTheRun15 = new race("Girls on the Run", "2015-11-21", "r5k", "Bellingham, WA", "Bloedel Donovan", "WHATCOM Family YMCA", "http://www.whatcomymca.org/gotr-5k.html", "", "", "");
+
+	girlsOnTheRun15.addRace("5k", "9:30am", "", ["$15 \(Girls on the Run Participants and Coaches do NOT need to pay the registration fee\)"], [""]);
+
+	raceArr.push(girlsOnTheRun15);
+
+var redmondTurkeyTrot15 = new race("Redmond Turkey Trot", "2015-11-21", "r5k", "Redmond, WA", "Redmond Town Center", "Snohomish Running Company", "http://redmondturkeytrot.com/", "", "", "Thanksgiving");
+
+	redmondTurkeyTrot15.addRace("Adult 5k", "8am", "1hr 15min", ["Until 10/31 $30", "11/01-11/20: $35", "Race Day: $40"], ["shirt, finisher medal"]);
+
+	redmondTurkeyTrot15.addRace("High School Student 5k", "8am", "1hr 15min", ["$20"], ["finisher medal"]);
+
+	raceArr.push(redmondTurkeyTrot15);
+
+var ducksVsBeavers15 = new race("Ducks vs Beavers Rivalry Clash", "2015-11-22", "r10k", "Portland, OR", "Portland, International Raceway", "Rivalry Clash Events", "http://www.rivalryclash.com/event/details/portland/", "", "yes", "UO Ducks & OSU Beavers");
+
+	ducksVsBeavers15.addRace("5k", "9:15am", "", ["$35"], ["shirt", "finisher medal", "after party"]);
+
+	ducksVsBeavers15.addRace("10k", "8:30am", "", ["$45"], ["shirt", "finisher medal", "after party"] );
+
+	raceArr.push(ducksVsBeavers15);
+
+var runToStayWarm15 = new race("EWEB Run to Stay Warm", "2015-11-22", "half", "Eugene, OR", "Eugene Water & Electric Board", "http://www.eweb.org/runtostaywarm", "", "", "");
+
+	runToStayWarm15.addRace("5k", "9:15am", "", ["$20", "no race day registration"], ["after party at tap and growler"]);
+
+	runToStayWarm15.addRace("10k", "9:15am", "", ["$30", "no race day registration"], ["after party at tap and growler"]);
+
+	runToStayWarm15.addRace("half", "9am", "16min/mile **course closes at 12:30pm**", ["$40", "no race day registration"], ["finisher medal", "after party at tap and growler"]);
+
+	runToStayWarm15.addRace("kid’s 400 meter dash", "8:30am", "", ["$0"], ["goody bag ", "hot cocoa", "photo with Sluggo"]);
+
+	raceArr.push(runToStayWarm15);
+
+var keizerTurkeyDash15 = new race("Keizer’s Turkey Dash Fun Run", "2015-11-26", "r5k", "Keizer, OR", "Lowe’s Home Improvement", "Kiezer Chamber of Commerce", "http://chambermaster.keizerchamber.com/events/details/keizer-s-turkey-dash-5k-fun-run-walk-presented-by-salem-real-estate-group-11-26-2015-7965" , "1200", "", "Thanksgiving");
+
+	keizerTurkeyDash15.addRace("5k Adult", "8am", "", ["Before 11/1: $25", "11/1-11/25: $30", "Race Day: $35 \(shit not guaranteed\)"], ["shirt", "finisher mug"]);
+
+	keizerTurkeyDash15.addRace("5k Youth", "8am", ["Before 11/1: $12", "11/1-11/25: $15", "Race Day: $20 \(shit not guaranteed\)"], ["youth shirt", "finisher mug"]);
+
+	raceArr.push(keizerTurkeyDash15);
+
+var turkeyTrotZoo15 = new race("Turkey Trot at the Zoo", "2015-11-26", "", "Portland, OR", "Oregon Zoo", "Oregon Road Runner’s Club", "http://orrc.net/events/event-list/turkey-trot-4-mile-run-and-walk-with-kids-tot-trot/", "3500", "yes", "Thanksgiving");
+
+	turkeyTrotZoo15.addRace("4mile Adult", "8am", "", ["$25"], ["zoo admission", "pumpkin pie"]);
+
+	turkeyTrotZoo15.addRace("4mile Youth: Ages 11 & younger ", "8am", "", ["$10"], ["shirt if registered by 11/7", "zoo admission", "pumpkin pie"]);
+
+	turkeyTrotZoo15.addRace("Tot Trot Youth: Ages 11 & younger" , "9:30am", "", ["$10"], ["shirt if registered by 11/7", "zoo admission", "pumpkin pie"]);
+
+	raceArr.push(turkeyTrotZoo15);
+
+var tofurkyTrot15 = new race("Tofurky Trot", "2015-11-26", "r5k", "Portland, OR", "Oaks Park Spring Water Trail", "The Tofurky Company", "http://www.eventbrite.com/e/tofurky-trot-2015-in-pdx-tickets-15023191771?aff=erelexporg" , "", "", "Thanksgiving");
+
+	tofurkyTrot15.addRace("Adult 5k \(dog friendly event \)", "9am", "", ["Before 11/26: $30", "Race Day: $35 **shirt not guaranteed**"], ["shirt", "dog treats", "goodies"]);
+
+	tofurkyTrot15.addRace("Youth 5K: Ages 18 & Under", "9am", "", ["Before 11/26: $15", "Race Day: $20 **shirt not guaranteed**", "Kids 6 & Under: $0"], ["shirt", "dog treats", "goodies"]);
+
+	raceArr.push(tofurkyTrot15);
+
+var seattleGhostMar15 = new race("Seattle Ghost Marahton", "2015-11-28", "ultra", "Seattle, WA", "Mt. Baker Park", "Databar Events", "https://www.databarevents.com/seattleghost", "400", "", "");
+	seattleGhostMar15.addRace("half", "7am", "6hrs", ["$75"], ["hoodie ", "finisher medal"]);
+	seattleGhostMar15.addRace("full", "Early: 6am Reg: 7am ", "7hrs", ["$75"], ["hoodie ", "finisher medal" ]);
+	seattleGhostMar15.addRace("50k", "6am", "7hrs", ["$75"], ["hoodie ", "finisher medal"]);
+	raceArr.push(seattleGhostMar15);
+
+	// var seattleMarathon15 = new race("Seattle Marathon");
+	// seattleMarathon15.addRace();
+	// raceArr.push(seattleMarathon15);
+
 var hotButteredRun15 = new race ("Hot Buttered Run", "2015-11-29", "half", "Vancouver, WA", "Esther Short Park", "Engery Events", "http://energyevents.com/hotbutteredrun", "", "", "", "Winter Holidays");
 	hotButteredRun15.addRace("5k Adult", "10am", "", ["4/15 to 6/30: $30", "7/1 to 9/30:	$35", "10/1 to 10/31: $40", "11/1 to 11/14:	$45", "11/15 to 11/22: $45 \(No Shirt Included \), Race Day: $50 \(No Shirt Included \)"], ["shirt", "goodie bag", "food", "hot butter rum or hot cocoa", "after party: music & fun"]);
 	hotButteredRun15.addRace("5k Youth Ages 8-18", "10am", "", ["4/15 to 11/14: $18", "11/15 to 11/22: $18 \(No Shirt Included \)", "Race Day: $50 \(No Shirt Included \)"], ["shirt", "goodie bag", "food", "hot cocoa", "after party: music & fun"]);
@@ -278,8 +358,11 @@ var hotButteredRun15 = new race ("Hot Buttered Run", "2015-11-29", "half", "Vanc
 
 //December 2015 Races
 
-var hoHo15 = new race("Ho Ho 5k", "2015-12-06", "r5k", "Tigard, OR", "Cook Park", "X-Dog Events", "http://www.xdogevents.com/hoho.html", "", "", "Winter Holidays");
+var jingleBellRock15 = new race("Jingle Bell Rock", "2015-12-05", "r5k", "Lakewood, WA", "Fort Steilacoom Park", "City of Lakewood", "http://www.active.com/lakewood-wa/running/distance-running-races/jingle-bell-rock-5k-fun-run-2015?cmp=39-34&ltclickid=10_72218924_41293a1a-c0c6-42a8-9cf8-6b1400a71bcf&ltcmp=254301", "" , "", "Winter Holidays");
+	jingleBellRock15.addRace("5k *dog friendly event*", "10am", "", ["$0"], ["shirt ", "bells ", "swag bag " , "s'mores ", "cider"]);
+	raceArr.push(jingleBellRock15);
 
+var hoHo15 = new race("Ho Ho 5k", "2015-12-06", "r5k", "Tigard, OR", "Cook Park", "X-Dog Events", "http://www.xdogevents.com/hoho.html", "", "", "Winter Holidays");
 	hoHo15.addRace("5k Adult", "10am", "", ["Tier 1: $15", "Tier 2: $20"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Ages 6-12", "10am", "", ["Tier 1: $8", "Tier 2: $11"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Under 6", "10am", "", ["$5"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
