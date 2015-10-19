@@ -343,9 +343,14 @@ var seattleGhostMar15 = new race("Seattle Ghost Marahton", "2015-11-28", "ultra"
 	seattleGhostMar15.addRace("50k", "6am", "7hrs", ["$75"], ["hoodie ", "finisher medal"]);
 	raceArr.push(seattleGhostMar15);
 
-	// var seattleMarathon15 = new race("Seattle Marathon");
-	// seattleMarathon15.addRace();
-	// raceArr.push(seattleMarathon15);
+	var seattleMarathon15 = new race("Seattle Marathon", "2015-11-29", "full", "Seattle, WA", "Seattle Center", "Amica Insurance", "http://www.seattlemarathon.org/#marathon", "", "yes", "");
+	seattleMarathon15.addRace("half", "runners: 7:30am, walkers: 7:45am", "", ["Until 11/17: $105 ", "11/27-11/28: $140 ", "No Race Day Registration"], ["shirt ", "finisher's medal ", "goodie bag ", " food", " drinks"]);
+	seattleMarathon15.addRace("full", "runners: 8:15am, walkers: 7:15am", "7hrs", ["Until 11/17: $135 ", "11/27-11/28: $150 ", "No Race Day Registration"], ["shirt ", "finisher's medal ", "goodie bag ", " food", " drinks"]);
+	raceArr.push(seattleMarathon15);
+
+	// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) city, startLocation, organizer, orgLink, cap, bagCheck, theme);
+//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
+// raceArr.push(title);
 
 var hotButteredRun15 = new race ("Hot Buttered Run", "2015-11-29", "half", "Vancouver, WA", "Esther Short Park", "Engery Events", "http://energyevents.com/hotbutteredrun", "", "", "", "Winter Holidays");
 	hotButteredRun15.addRace("5k Adult", "10am", "", ["4/15 to 6/30: $30", "7/1 to 9/30:	$35", "10/1 to 10/31: $40", "11/1 to 11/14:	$45", "11/15 to 11/22: $45 \(No Shirt Included \), Race Day: $50 \(No Shirt Included \)"], ["shirt", "goodie bag", "food", "hot butter rum or hot cocoa", "after party: music & fun"]);
