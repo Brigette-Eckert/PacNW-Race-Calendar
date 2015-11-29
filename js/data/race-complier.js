@@ -151,7 +151,7 @@ var happyGirlsSisters15 = new race("Happy Girls Run – Sisters", "2015-10-24", 
 
 var columbiaGorge15 = new race("Columbia Gorge Marathon & Half", "2015-10-25", "full", "Hood River, OR", "Mark O. Hatfield West Trailhead", "Breakaway Promotions LLC", "http://www.columbiagorgemarathon.com/", "1500", "yes", ""); 
 
-	columbiaGorge15.addRace("Half", "9:30am,  \(Early Start: All competitors who believe they will be on course longer than six hours are welcome to be at the start line at 8am and we will have an official start for you!\)", "", ["Before 1/1: $70" ," Before  4/1: $75 ", "Before: 10/1: $85 ", "After 10/1: $100 ", "**No Race Day Registration**"], ["beanie ", "gear check bag ", "ceramic finisher medal ", "food", "beer", "hot apple cider"]);
+	columbiaGorge15.addRace("Half", "9:30am,  \(Early Start: All competitors who believe they will be on course longer than six hours are welcome to be at the start line at 8am and we will have an official start for you!\)", "", ["Before 1/1: $70" ," Before  4/1: $75 ", "Before: 10/1: $85 ", "After 10/1: $100 ", "**No Race WDay Registration**"], ["beanie ", "gear check bag ", "ceramic finisher medal ", "food", "beer", "hot apple cider"]);
 
 	columbiaGorge15.addRace("Dog Leg Half Marathon \(Dog Friendly\)", "9:30am", "", ["Before 1/1: $80" , "Before  4/1:  $85" , "Before: 10/1: $90" , "After 10/1: $110 ", "**No Race Day Registration**"], ["beanie ", "gear check bag ", "ceramic finisher medal ", "food", "beer", "hot apple cider"]);
 
@@ -368,19 +368,25 @@ var jingleBellRock15 = new race("Jingle Bell Rock", "2015-12-05", "r5k", "Lakewo
 	raceArr.push(jingleBellRock15);
 
 
+var blerchGreenLake15 = new race("Beat the Blerch Green Lake Fun Run", "2015-12-05", "r10k", "Seattle, WA", "Green Lake Park","The Oatmeal", "https://www.eventbrite.com/e/beat-the-blerch-green-lake-fun-run-registration-19071281717", "", "", "blerch/winter holidays" );
+	
+	blerchGreenLake15.addRace("5k", "5pm", "", ["$33"], ["medal", "mesh christmas stocking", "gobs of candy", "giant pixy stix", "blerch beanie", "blerch gloves"]);
+	blerchGreenLake15.addRace("10k", "5pm", "", ["$33"], ["medal", "mesh christmas stocking", "gobs of candy", "giant pixy stix", "blerch beanie", "blerch gloves"]);;
+	raceArr.push(blerchGreenLake15);
+
 var hoHo15 = new race("Ho Ho 5k", "2015-12-06", "r5k", "Tigard, OR", "Cook Park", "X-Dog Events", "http://www.xdogevents.com/hoho.html", "", "", "Winter Holidays");
 	hoHo15.addRace("5k Adult", "10am", "", ["Tier 1: $15", "Tier 2: $20"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Ages 6-12", "10am", "", ["Tier 1: $8", "Tier 2: $11"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	hoHo15.addRace("5k Kids Under 6", "10am", "", ["$5"], ["hostess snowballs & hohos", "tree seedling", "hot cider"]);
 	raceArr.push(hoHo15);
 
-var jingleBell15 = new race("Jingle Bell 5k", "2015-12-06", "r5k", "Portland, OR", "World Trade Center", "The Arthritis, Foundation", "http://www.jbr.org/faf/home/default.asp?ievent=1138292", "", "", "Winter Holidays" );	
-	jingleBell15.addRace("5k Adult", "8:50am", "", ["Before 11/01: $30"], ["shirt", "jingle bells"]);
-	jingleBell15.addRace("5k Kid Ages 12 & Under", "8:50am", "", ["$20"], ["shirt", "jingle bells"]);
-	jingleBell15.addRace("1k Kid's Fun Run with the Elves Ages 10 & Under", "8:30am", "", ["$20"], ["shirt", "jingle bells"]);
-	jingleBell15.addRace("Jingle in Your Jammies (Vitrual)", "", "", ["Without Shipping: $25", "With Shipping: $31" ], ["shirt", "jingle bells"]);
+var jingleBellPDX15 = new race("Jingle Bell 5k", "2015-12-06", "r5k", "Portland, OR", "World Trade Center", "The Arthritis, Foundation", "http://www.jbr.org/faf/home/default.asp?ievent=1138292", "", "", "Winter Holidays" );	
+	jingleBellPDX15.addRace("5k Adult", "8:50am", "", ["Before 11/01: $30"], ["shirt", "jingle bells"]);
+	jingleBellPDX15.addRace("5k Kid Ages 12 & Under", "8:50am", "", ["$20"], ["shirt", "jingle bells"]);
+	jingleBellPDX15.addRace("1k Kid's Fun Run with the Elves Ages 10 & Under", "8:30am", "", ["$20"], ["shirt", "jingle bells"]);
+	jingleBellPDX15.addRace("Jingle in Your Jammies (Vitrual)", "", "", ["Without Shipping: $25", "With Shipping: $31" ], ["shirt", "jingle bells"]);
 
-	raceArr.push(jingleBell15);
+	raceArr.push(jingleBellPDX15);
 
 
 var holidayHustle15 = new race("Holiday Hustle", "2015-12-12", "r5k", "Central Point, OR", "Twin Peaks Park", "Junior League of Jackson County", "https://secure.getmeregistered.com/get_information.php?event_id=122692", "", "", "Winter Holidays");
@@ -395,6 +401,13 @@ var santaRunsTacoma15 = new race("Santa Runs Tacoma", "2015-12-12", "half", "Tac
 	santaRunsTacoma15.addRace("Donner and Blitzen's 21k", "8:30am", "4hrs", ["Before 10/31: $60 ", "11/1-11/30: $70 ", "12/1-12/9: $80", "12/10: $90", "No Race Day Registration"], ["hat ", "shirt ", "finsher's medal"]);
 	raceArr.push(santaRunsTacoma15);
 
+var naughtyOrNiceathon15 = new race("Naughty or Niceathon", "2015-12-12", "r5k", "Beaverton, OR", "Big Al's", "Uberthons", "http://www.uberthons.com/naughtyorniceathon", "Yes. But only with a ratio of 51% Nice people and 49% Naughty people.", "No","Winter Holidays");
+	naughtyOrNiceathon15.addRace("5k Choose Naught or Nice", "9:00am", "", ["$30"], [
+		"free game of bowling and shoes", "future uberthons race discounts", "$10 beer tube coupons", "free arcade play", "pancake breakfast", "finisher medal", "hot chocolate", "live music"]);
+	naughtyOrNiceathon15.addRace("Kidathon 1/4-1/2 Mile", "10:30am", "", [""], ["uberkids medal avalible for $10"]);
+	naughtyOrNiceathon15.addRace("Kids 1 Miler: 12 and under (timed)", "10:30am", "", ["$10"], ["kid's medal"]);
+	raceArr.push(naughtyOrNiceathon15);
+
 var holidayHalf15 = new race("Holiday Half & 5k", "2015-12-13", "half", "Portland, OR", "Addias North America Campus", "Foot Traffic", "http://foottraffic.us/the-races/holiday/", "", "", "Winter Holidays");
 	
 	holidayHalf15.addRace("5k","8:15am", "", ["7/15 to 9/1: $36", "9/2 to 10/15: $39", "10/16 to 11/1: $41", "11/2 to 11/9: $41 \(no name on bib\)", "11/10 until Full: $41 \(no name on bib and tech shirt subbed with cotton shirt\)", "Race Day: $45 \(no name on bib and shirt not guaranteed\)"], ["finisher medal", "shirt", "name on bib", "food", "beer", "music"] );
@@ -403,9 +416,44 @@ var holidayHalf15 = new race("Holiday Half & 5k", "2015-12-13", "half", "Portlan
 
 	raceArr.push(holidayHalf15);
 
-// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) city, startLocation, organizer, orgLink, cap, bagCheck, theme);
-//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
-// raceArr.push(title);
+var eugeneHolidayHalf15 = new race("Eugene Holiday Half & Hustle", "2015-12-19", "half", "Eugene, OR", "Lane Events Center", "Pink Buffalo Racing", "http://www.eugeneholidayhalf.com/Home.html", "", "", "Winter Holidays");
+	eugeneHolidayHalf15.addRace("Holiday Hustle 5k", "9:15am", "course closes at 2pm", ["Before 12/19: $20", "Race Day: $25", "Seniors and Youth under 17 deduct $5"], []);
+	eugeneHolidayHalf15.addRace("Holiday Hustle 10k", "9:15am", "course closes at 2pm", ["Before 12/19: $20", "Race Day: $25", "Seniors and Youth under 17 deduct $5"], []);
+	eugeneHolidayHalf15.addRace("Holiday Half", "9:00am", "4hrs", ["Before 12/19: $55", "Race Day: $60", "Seniors and Youth under 17 deduct $5"], ["finisher medal"]);
+	eugeneHolidayHalf15.addRace("GloryBee Kid's Fun Run - 12 and under", "8:45am", "", ["$0"], []);
+	raceArr.push(eugeneHolidayHalf15); 
+
+var medfordUglySweater15 = new race(
+	"Medford Ugly Sweater 5k", "2015-12-19", "r5k", "Medford, OR", "Main St & S Bartlett St (Near RCC)", "Medford Ugly Sweater Run", "http://www.medforduglysweater5k.com/index2.php", "", "", "Winter Holidays");
+		medfordUglySweater15.addRace("5k Adult", "9:00am", "", ["With Shirt: $30", "Without Shirt: $25"], ["pancake breakfast"]);
+		medfordUglySweater15.addRace("5k Youth", "9:00am", ["With Shirt: $20", "Without Shirt: $15"], ["pancake breakfast"]);
+	raceArr.push(medfordUglySweater15);
+
+var uglyHolidaySweaterRun15 = new race("Ugly Holiday Sweater Run", "2015-12-19", "r5k", "Tualatin, OR", "7063 SW Nyberg St", "Ladybugt CDH Foundation", "https://runsignup.com/Race/OR/Tualatin/UglyHolidaySweaterRun?", "", "", "Winter Holidays");
+	uglyHolidaySweaterRun15.addRace("5k", "9:00am", "", ["Suggested Donation $10"], []);
+	raceArr.push("uglyHolidaySweaterRun15");
+
+var sewardSolistice15 = new race("Seward Solistie", "2015-12-19", "r10k", "Seattle, WA", "Seward Park", "Northwest Trail Runs", "http://nwtrailruns.com/events/seward-solstice/", "", "", "trail run");
+	sewardSolistice15.addRace("4.2 Mile Adult", "9:30am", "course closes at 12:00pm", ["Before 12/18: $26", "Race Day: $35"], ["snacks"]);
+	sewardSolistice15.addRace("4.2 Mile Youth", "9:30am", "course closes at 12:00pm",  ["Before 12/18: $26", "Race Day: $35", "Use Code #YOUTH for $10 onlne discount or $5 in person discount"], ["snacks"]);
+	sewardSolistice15.addRace("10k Adult", "9:30am", "course closes at 12:00pm", ["Before 12/18: $31", "Race Day: $40"], ["snacks"]);
+	sewardSolistice15.addRace("10k Youth", "9:30am", "course closes at 12:00pm", ["Before 12/18: $31", "Race Day: $40", "Use Code #YOUTH for $10 onlne discount or $5 in person discount"], ["snacks"]);
+	raceArr.push(sewardSolistice15);
+
+var yukonDoit15 = new race("Yukon Do it Marathon & Half Marathon", "2015-12-27", "full", "Port Orchard, WA", "Totem Pole by the Downtown Library", "Databar Events", "http://www.databarevents.com/events/view/74", "", "", "");
+	yukonDoit15.addRace("Half", "9:00am", "", ["12/1-12/23: $75", "Race Day: $100"], []);
+	yukonDoit15.addRace("Full", "7:30am", "", ["12/1-12/23: $100", "No Race Day Registration"], []);
+	raceArr.push(yukonDoit15);
+
+var lastChance15 = new race("Last Chance Marathon", "2015-12-31", "full", "Bellingham, WA", "Fairhaven Park", "Databar Events", "http://www.databarevents.com/events/view/72", "250", "yes", "New Year's Eve");
+	lastChance15.addRace("half", "Early Start: 8:00AM, Regular Start: 9:00am", "", [
+		"$45", "No Race Day Registration"], ["snacks", "finisher medal/coin"]);
+	lastChance15.addRace("full", "Early Start: 8:00AM, Regular Start: 9:00am", "", ["$45", "No Race Day Registration"], ["snacks", "finisher medal/coin"]);
+	raceArr.push(lastChance15);
+var firstRun15 = new race("First Run", "2015-12-31","r10k", "Portland, OR", "World Trade Center", "AA Sports", "http://aasportsltd.com/events/race/first-run-walk/", "", "", "New Year's Eve");
+	firstRun15.addRace("10k", "12am", "", ["Until 12/30: $45", "Race Day: $50"], ["food", "beer", "music", "dancing", "photo op", "after party"]);
+	firstRun15.addRace("5k");
+	raceArr.push(firstRun15);
 
 //2016 
 //January 2016 Races
@@ -432,6 +480,9 @@ var holidayHalf15 = new race("Holiday Half & 5k", "2015-12-13", "half", "Portlan
 
 //December 2016 Races
 
+// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) city, startLocation, organizer, orgLink, cap, bagCheck, theme);
+//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
+// raceArr.push(title);
 
 console.log(raceArr)
 fs.writeFile("raceJSON.js", JSON.stringify(raceArr))
