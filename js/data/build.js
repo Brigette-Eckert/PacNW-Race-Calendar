@@ -3,6 +3,8 @@ var raceid = 0
 function Race(title, start, className, startLocation, city, organizer, orgLink, cap, bagCheck, theme) {
 	this.title = title,
 	this.start = start,
+	this.end = start,
+	allDay = true,
 	this.raceid= raceid;
 	this.url = "#/races/" + this.raceid,
 	raceid ++;

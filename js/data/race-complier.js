@@ -471,5 +471,5 @@ var firstRun15 = new race("First Run", "2015-12-31","r10k", "World Trade Center"
 //raceName.addRace("dist", "startTime", limit, [prices], [swag]);
 // raceArr.push(title);
 
-console.log(raceArr)
+// console.log(raceArr)
 fs.writeFile("raceJSON.js", JSON.stringify(raceArr))
