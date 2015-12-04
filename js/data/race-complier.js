@@ -415,9 +415,9 @@ var medfordUglySweater15 = new race(
 		medfordUglySweater15.addRace("5k Youth", "9:00am", ["With Shirt: $20", "Without Shirt: $15"], ["pancake breakfast"]);
 	raceArr.push(medfordUglySweater15);
 
-var uglyHolidaySweaterRun15 = new race("Ugly Holiday Sweater Run", "2015-12-19", "r5k", "7063 SW Nyberg St", "Tualatin, OR", "Ladybugt CDH Foundation", "https://runsignup.com/Race/OR/Tualatin/UglyHolidaySweaterRun?", "", "", "Winter Holidays");
-	uglyHolidaySweaterRun15.addRace("5k", "9:00am", "", ["Suggested Donation $10"], []);
-	raceArr.push("uglyHolidaySweaterRun15");
+// var uglyHolidaySweaterRun15 = new race("Ugly Holiday Sweater Run", "2015-12-19", "r5k", "7063 SW Nyberg St", "Tualatin, OR", "Ladybugt CDH Foundation", "https://runsignup.com/Race/OR/Tualatin/UglyHolidaySweaterRun?", "", "", "Winter Holidays");
+// 	uglyHolidaySweaterRun15.addRace("5k", "9:00am", "", ["Suggested Donation $10"], []);
+// 	raceArr.push("uglyHolidaySweaterRun15");
 
 var sewardSolistice15 = new race("Seward Solistie", "2015-12-19", "r10k", "Seward Park", "Seattle, WA", "Northwest Trail Runs", "http://nwtrailruns.com/events/seward-solstice/", "", "", "trail run");
 	sewardSolistice15.addRace("4.2 Mile Adult", "9:30am", "course closes at 12:00pm", ["Before 12/18: $26", "Race Day: $35"], ["snacks"]);
@@ -471,5 +471,5 @@ var firstRun15 = new race("First Run", "2015-12-31","r10k", "World Trade Center"
 //raceName.addRace("dist", "startTime", limit, [prices], [swag]);
 // raceArr.push(title);
 
-// console.log(raceArr)
+console.log(raceArr);
 fs.writeFile("raceJSON.js", JSON.stringify(raceArr))
