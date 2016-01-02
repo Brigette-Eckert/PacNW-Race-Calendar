@@ -445,7 +445,60 @@ var firstRun15 = new race("First Run", "2015-12-31","r10k", "World Trade Center"
 //2016 
 //January 2016 Races
 
+var newYearathon16 = new race ("NewYearathon", "2016-01-02", "r5k", "Cook Park", "Tigard, OR", "Uberthons", "http://www.uberthons.com/newyearathon", "700", "no", "New Years" );
+   newYearathon16.addRace("1 mile- adults", "9:00am", "", ["$12"], ["pancakes", "finisher belt buckle"]);
+   newYearathon16.addRace("5k", "9:15am", "", ["$30"], ["pancakes", "finisher belt buckle"]);
+   newYearathon16.addRace("1 mile - kids 12 and under", "9:00am", "", ["$10"], ["pancakes", "kid’s medal"]);
+   newYearathon16.addRace("Kidathon (¼- ½ mile)", "9:00am", "", ["$0"], ["pancakes"]);
+ 	newYearathon16.addRace("Virtual", "9:15am", "", ["$30"], ["finisher belt buckle"]);
+ 	raceArr.push(newYearathon16);
+
+var redResolutionRun16 = new race("Resolution Run", "2016-01-03", "r5k", "", "Redmond, WA", "Serious About Fitness", "http://www.seriousaboutfitness.net/content/resolution-5k-runwalk", "");
+	redResolutionRun16.addRace("5k", "10:00am", "", ["$55"], ["shirt", "food", "beer", "after party at Hi-Fi Brewery Taproom"]);
+	raceArr.push(redResolutionRun16);
+
+var waWorstDay16 = new race("Worst Day of the Year Run", "2016-01-09", "r10k", "McMenamins Anderson School", "Bothwell, WA", "REI", "http://www.worstdayrun.com/wa----details.html", "1500", "", "Winter Costume Run");
+	waWorstDay16.addRace("5k Adult", "10:00am", "", ["Online: $39", "Race Day: $49"], ["columbia sportswear winter accessory", "finisher medal", "food", "beer", "post race party"]);
+	waWorstDay16.addRace("5k Kids --Ages: 12 & Under", "10:00am", "", ["$10"], ["columbia sportswear winter accessory", "finisher medal", "food", "post race party"]);
+	waWorstDay16.addRace("10k Adult", "10:15am", "", ["Online: $39", "Race Day: $49"], ["columbia sportswear winter accessory", "finisher medal", "food", "beer", "post race party"]);
+	waWorstDay16.addRace("10k Kids --Ages: 12 & Under", "10:15am", "", ["$10"], ["columbia sportswear winter accessory", "finisher medal", "food", "post race party"]);
+	raceArr.push(waWorstDay16);
+
+var polarBearRun16 = new race("Polar Bear Run", "2016-01-09", "r10k", "St. Thomas Acadmey", "Redmond, OR", "St. Thomas Acadmey", "http://www.active.com/redmond-or/running/distance-running-races/6th-annual-polar-bear-5k-10k-run-and-expo-2016?cmp=39-34-156210&ltcmp=254301&ltclickid=01_9461393_fd992011-8034-4804-adb0-9ebf8cbcbf09&cmp=39-34", "", "", "winter");
+	polarBearRun16.addRace("5k", "10:30am", "", ["$35"], ["admission to polar bear expo"]);
+	polarBearRun16.addRace("10k", "10:30am", "", ["$35"], ["admission to polar bear expo"]);
+	raceArr.push(polarBearRun16);
+
+
+// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) startLocation, city, organizer, orgLink, cap, bagCheck, theme);
+
+//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
+// raceArr.push(title);
+
+
+var seaResolutionRun16 = new race("Resolution Run", "2016-01-31", "r10k", "Seward Park Sheter #2", "Seattle, WA", "Fitness for Vitality", "http://www.active.com/seattle-wa/running/distance-running-races/seattle-run-series-resolution-series-january-31-february-28-march-13-2016?cmp=39-34-156210&ltclickid=01_9473851_d959ba2e-b0e4-4e8f-b340-21b75852ddbe&ltcmp=254301", "", "yes", "125", "", "");
+	seaResolutionRun16.addRace("5k Adult", "9:40am", "", ["Before 1/13: $28.50", "After 1/13: $32.85"], ["food"]);
+	seaResolutionRun16.addRace("5k Kids - Ages 19 & Under", "9:40am", "", ["$14.25"], ["food", "medal"]);
+	seaResolutionRun16.addRace("10k", "9:30am", "", ["Before 1/13: $28.50", "After 1/13: $32.85"], ["food"]);
+	raceArr.push(seaResolutionRun16);
 //February 2016 Races
+
+var orWorstDay16 = new race("Worst Day of the Year Run", "2016-02-06", "r10k", "McMenamins Edgefield", "Troutdale, OR", "REI", "http://www.worstdayrun.com/or----details.html", "1500", "", "Winter Costume Run");
+	orWorstDay16.addRace("5k Adult", "First Start: 9:00am, Second Start: 10:00am, Third Start: 11:00am", "", ["Online: $39", "Race Day: $49"], ["columbia sportswear winter accessory", "finisher medal", "food", "beer", "post race party", "photo"]);
+	orWorstDay16.addRace("5k Kids --Ages: 12 & Under", "First Start: 9:00am, Second Start: 10:00am, Third Start: 11:00am", "", ["$10"], ["columbia sportswear winter accessory", "finisher medal", "food", "post race party", "photo"]);
+	orWorstDay16.addRace("10k Adult", "First Start: 9:00am, Second Start: 10:00am, Third Start: 11:00am", "", ["Online: $39", "Race Day: $49"], ["columbia sportswear winter accessory", "finisher medal", "food", "beer", "post race party", "photo"]);
+	orWorstDay16.addRace("10k Kids --Ages: 12 & Under", "First Start: 9:00am, Second Start: 10:00am, Third Start: 11:00am", "", ["$10"], ["columbia sportswear winter accessory", "finisher medal", "food", "post race party", "photo"]);
+	raceArr.push(orWorstDay16);
+
+//Need to add Jan/Feb prices for 5 and 10k
+var myBetterHalf16 = new race("My Better Half Marathon", "2016-02-14" , "half" , "Seward Park", "Seattle, WA", "Orca Running", "http://mybetterhalfmarathon.com/", "650", "yes", "Valetine’s Day: Catergories: Bromance- two guy friends running together, Besties -two girl friends running together, Lovers -self explanatory and Lonely Hearts Club ");
+	myBetterHalf16.addRace("5k", "8:00am", "", ["December: $35", "January & February: $40"], ["one long stemmed rose", "food", "candy hearts", "race photos", "interlocking finisher’s medal", "long sleeve shirt"]);
+	myBetterHalf16.addRace("10k","8:00am", "", ["December: $40", "January & February: $45"], ["one long stemmed rose", "food", "candy hearts", "race photos", "interlocking finisher’s medal", "long sleeve shirt"]);
+	myBetterHalf16.addRace("Half","8:00am", "", ["December: $80", "January & February: $85"], ["one long stemmed rose", "food", "candy hearts", "race photos", "interlocking finisher’s medal", "long sleeve shirt"]);
+	myBetterHalf16.addRace("Half Relay - 2 people","8:00am", "", ["December: $120", "January & February: $125"], ["one long stemmed rose", "food", "candy hearts", "race photos", "interlocking finisher’s medal", "long sleeve shirt"]);
+	myBetterHalf16.addRace("Virtual","", "", ["December: $36", "January & February: $41"], ["interlocking finisher’s medal", "long sleeve shirt"]);
+	raceArr.push(myBetterHalf16);
+
 
 //March 2016 Races
 
@@ -467,9 +520,7 @@ var firstRun15 = new race("First Run", "2015-12-31","r10k", "World Trade Center"
 
 //December 2016 Races
 
-// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) startLocation, city, organizer, orgLink, cap, bagCheck, theme);
-//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
-// raceArr.push(title);
+
 
 console.log(raceArr);
 fs.writeFile("raceJSON.js", JSON.stringify(raceArr))
