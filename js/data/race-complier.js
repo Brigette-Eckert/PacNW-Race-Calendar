@@ -469,13 +469,6 @@ var polarBearRun16 = new race("Polar Bear Run", "2016-01-09", "r10k", "St. Thoma
 	polarBearRun16.addRace("10k", "10:30am", "", ["$35"], ["admission to polar bear expo"]);
 	raceArr.push(polarBearRun16);
 
-
-// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) startLocation, city, organizer, orgLink, cap, bagCheck, theme);
-
-//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
-// raceArr.push(title);
-
-
 var seaResolutionRun16 = new race("Resolution Run", "2016-01-31", "r10k", "Seward Park Sheter #2", "Seattle, WA", "Fitness for Vitality", "http://www.active.com/seattle-wa/running/distance-running-races/seattle-run-series-resolution-series-january-31-february-28-march-13-2016?cmp=39-34-156210&ltclickid=01_9473851_d959ba2e-b0e4-4e8f-b340-21b75852ddbe&ltcmp=254301", "", "yes", "125", "", "");
 	seaResolutionRun16.addRace("5k Adult", "9:40am", "", ["Before 1/13: $28.50", "After 1/13: $32.85"], ["food"]);
 	seaResolutionRun16.addRace("5k Kids - Ages 19 & Under", "9:40am", "", ["$14.25"], ["food", "medal"]);
@@ -490,6 +483,23 @@ var orWorstDay16 = new race("Worst Day of the Year Run", "2016-02-06", "r10k", "
 	orWorstDay16.addRace("10k Kids --Ages: 12 & Under", "First Start: 9:00am, Second Start: 10:00am, Third Start: 11:00am", "", ["$10"], ["columbia sportswear winter accessory", "finisher medal", "food", "post race party", "photo"]);
 	raceArr.push(orWorstDay16);
 
+var warriorLove = new race("Warrior Love", "2016-02-07", "r10k", "Nehalem Bay State Park", "Nehalem, OR", "Scovel Racing", "https://runsignup.com/Race/OR/Nehalem/WarriorLove?", "", "", "Valetine’s Day");
+	warriorLove.addRace("5k Youth: Ages 14 & Under", "10:00am", "3hrs", ["$15"], ["finisher mug", "coffee or hot cocoa", "snacks", "bonfire"]);
+	warriorLove.addRace("5k Adult", "10:00am", "3hrs", ["$25"], ["finisher mug", "coffee or hot cocoa", "snacks", "bonfire"]);
+	warriorLove.addRace("10k Youth: Ages 14 & Under", "10:00am", "3hrs", ["$20"], ["finisher mug", "coffee or hot cocoa", "snacks", "bonfire"]);
+	warriorLove.addRace("10k Adult", "10:00am", "3hrs", ["$30"], ["finisher mug", "coffee or hot cocoa", "snacks", "bonfire"])
+	raceArr.push(warriorLove);
+
+var couplesClassic = new race("Couples Classic (Michael DeRobertis Memorial)", "2016-02-13", "r5k", "River Road Park & Recreation District Office", "Eugene, OR", "Eclectic Edge Racing", "http://www.eclecticedgeracing.com/Couples_Classic.html", "", "", "Valetine’s Day");
+	couplesClassic.addRace("5k", "9:30am", "", ["Before 02/11: $15", "After 02/11: $20"], ["hot tub", "child care", "food", "drinks"]);
+	raceArr.push(couplesClassic);
+
+var myMuddyValentine = new race("My Muddy Valentine", "2016-02-13", "r5k", "Lee Farms", "Tualatin, OR", "Terrapin Events", "http://terrapinevents.com/event/my-muddy-valentine-5k-mud-run-portland-:oreg/", "2000", "yes", "Mud Race/Valetine’s Day/Obstacle Course");
+	myMuddyValentine.addRace("5k Individual", "9am", "", ["Tier 1: $49", "Tier 2: $54", "Tier 3: $59", "Race Weekend: $64"], ["mud", "music", "bonfires", "shirt", "food", "cider, mimosa or beer"]);
+	myMuddyValentine.addRace("5k Team", "9am", "", ["Tier 1: $98", "Tier 2: $104" , "Tier 3: $110", "Race Weekend: $120"], ["mud", "music", "bonfires", "shirt", "food", "cider, mimosa or beer"]);
+	raceArr.push(myMuddyValentine);
+
+
 //Need to add Jan/Feb prices for 5 and 10k
 var myBetterHalf16 = new race("My Better Half Marathon", "2016-02-14" , "half" , "Seward Park", "Seattle, WA", "Orca Running", "http://mybetterhalfmarathon.com/", "650", "yes", "Valetine’s Day: Catergories: Bromance- two guy friends running together, Besties -two girl friends running together, Lovers -self explanatory and Lonely Hearts Club ");
 	myBetterHalf16.addRace("5k", "8:00am", "", ["December: $35", "January & February: $40"], ["one long stemmed rose", "food", "candy hearts", "race photos", "interlocking finisher’s medal", "long sleeve shirt"]);
@@ -498,7 +508,20 @@ var myBetterHalf16 = new race("My Better Half Marathon", "2016-02-14" , "half" ,
 	myBetterHalf16.addRace("Half Relay - 2 people","8:00am", "", ["December: $120", "January & February: $125"], ["one long stemmed rose", "food", "candy hearts", "race photos", "interlocking finisher’s medal", "long sleeve shirt"]);
 	myBetterHalf16.addRace("Virtual","", "", ["December: $36", "January & February: $41"], ["interlocking finisher’s medal", "long sleeve shirt"]);
 	raceArr.push(myBetterHalf16);
+	
 
+var heartBreakerHalf = new race("Heart Breaker Half", "2016-02-14", "half", "Liberty High School", "Hillsboro, OR", "", "AA Sports", "http://aasportsltd.com/event/heartbreaker/", "", "", "Valetine’s Day");
+	heartBreakerHalf.addRace("5k", "8:20am", "", ["Online Registration: $30", "Race Day: $40"], ["shirt or fitness towel", "music", "dancing", "contest"]);
+	heartBreakerHalf.addRace("10k", "8:15am", "", ["Online Registration: $40", "Race Day: $50"], ["shirt or fitness towel", "music", "dancing", "contest"]);
+	heartBreakerHalf.addRace("Half", "8:00am", "", ["Online Registration: $60", "Race Day: $70"], ["shirt or fitness towel", "music", "dancing", "contest"]);
+	heartBreakerHalf.addRace("Kid's 1-Mile Dash", "10:30am", "", ["$12"], ["music", "dancing", "contest"]);
+	raceArr.push(heartBreakerHalf);
+
+
+// var name = new race(title, date, className(ie longest dist offered (r5k, r10k, half, full, ultra etc)) startLocation, city, organizer, orgLink, cap, bagCheck, theme);
+
+//raceName.addRace("dist", "startTime", limit, [prices], [swag]);
+// raceArr.push(title);
 
 //March 2016 Races
 
