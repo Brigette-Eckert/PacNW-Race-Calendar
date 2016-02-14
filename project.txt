@@ -1,3 +1,0 @@
-Project to do ideas & notes
- 
-Future: Add submit form  (with Mean or PHP)
